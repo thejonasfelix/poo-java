@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "ContaCorrente 01. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$AtributosTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "ContaCorrente 02. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$EncapsulamentoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "ContaCorrente 03. A lista de operações deve ser inicializada no momento da criação do objeto",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$AtributoOperacoesDeveSerInicializadoNaCriacaoDoObjetoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "ContaCorrente 05. Adicionar operação",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$AdicionarOperacaoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ContaCorrente 06. Buscar operações por categoria",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$BuscarOperacoesPorCategoriaTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ContaCorrente 07. Buscar operações por valor",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$BuscarOperacoesPorValorTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ContaCorrente 08. Buscar operações do tipo saída (valores negativos)",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$BuscarOperacoesDoTipoSaidaTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "ContaCorrente 09. Buscar operações por descrição",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$BuscarOperacoesPorDescricaoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "ContaCorrente 10. Buscar menor valor de operação",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$BuscarMenorValorOperacaoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "ContaCorrente 11. Obter saldo",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$ObterSaldoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "ContaCorrente 12. Obter saldo por categoria",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$ObterSaldoPorCategoriaTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "ContaCorrente 13. Buscar categoria com maior gasto",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$BuscarCategoriaComMaiorGastoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ContaCorrente 14. 🏆 Desafio: Buscar operações duplicadas",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ContaCorrenteTest\\$BuscarOperacoesDuplicadasTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Operacao 01. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\OperacaoTest\\$AtributosTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Operacao 02. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\OperacaoTest\\$EncapsulamentoTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Operacao 03. Deve possuir um construtor cheio",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\OperacaoTest\\$OperacaoConstrutorTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
